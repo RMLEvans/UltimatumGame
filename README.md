@@ -13,7 +13,9 @@ Coded in "processing" language, a java-based (C-derived) language, freely availa
 https://processing.org/
 
 For real-time graphical output, launch the code directly from the processing IDE.
-To set parameters and output text, the code can be compiled and exported to an executable, then launched from the comman line, specifying the parameters:
+To set parameters and output text, the code can be compiled and exported to an executable, then 
+
+launched from the comman line, specifying the parameters:
 (int)RandomNumberSeed (float)mu (float)BirthRate (int)L (boolean)HalfAndHalf (float)tmax
 
 e.g.
@@ -29,9 +31,18 @@ exampleBatchScript.bat
 
 
 
-Algorithm of the Stochastic Spatial Ultimatum Game B-D Process (Random birth causes a fitness-dependent death):
+Algorithm of the Stochastic Spatial Ultimatum Game B-D Process (Random birth causes a fitness-
 
-Agents filling a square grid are chosen at random play the Ultimatum Game, making an offer to a randomly chosen one of their four immediate neighbours. The offerer is chosen stochastically at a mean rate of once per agent per timestep. Also stochastically, with a mean rate of BirthRate per agent, agents are selected randomly to reproduce. Their offspring replaces either the weakest of the 
-parent's four neighbours (with probability SP) or a random neighbour (with probability 1-SP). 
-Offspring inherit none of the parent's wealth. They inherit the parent's offer and acceptance values +/- a uniformly distributed random mutation of standard deviation mu.
+dependent death):
+
+Agents filling a square grid are chosen at random play the Ultimatum Game,
+making an offer to a randomly chosen one of their four immediate neighbours.
+The offerer is chosen stochastically at a mean rate of once per agent per 
+timestep. Also stochastically, with a mean rate of BirthRate per agent, agents
+are selected randomly to reproduce. Their offspring replaces either the weakest of the 
+parent's four neighbours (with probability SP) or a random neighbour (with probability 
+1-SP). 
+Offspring inherit none of the parent's wealth.
+They inherit the parent's offer and acceptance values +/- a uniformly 
+distributed random mutation of standard deviation mu.
 
