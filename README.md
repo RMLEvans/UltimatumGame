@@ -3,14 +3,13 @@ Evolutionary modelling using the Stochastic Spatial ultimatum game.
 
 BD_Cumulative.pde  by R M L Evans
   
-Code for simulation of model pubished in:
+Code for simulation of model pubished at 
+www.nature.com/articles/s41598-018-34384-w
+in:
 
 "Pay-off scarcity causes evolution of risk-aversion and extreme altruism", 
-
 R M L Evans, Sci. Rep (2018) 8:16074. 
 
-at 
-www.nature.com/articles/s41598-018-34384-w
 
 Coded in "processing" language, a java-based (C-derived) language, freely available at
 https://processing.org/
